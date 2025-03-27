@@ -12,9 +12,9 @@ This project automates the deployment of a static website to an Amazon S3 bucket
 1. **Clone the repository:**
 
     ```sh
-    git clone https://github.com/ShubhamMca88/S3-Bucket-Terraform-AWS.git
+    git clone https://github.com/ShubhamMca88/aws-s3-bucket-terraform-project.git
 
-    cd S3-Bucket-Terraform
+    cd aws-s3-bucket-terraform-project
     ```
 
 2. **Initialize Terraform:**
@@ -37,11 +37,8 @@ This project automates the deployment of a static website to an Amazon S3 bucket
 
 5. **Upload your static website:**
 
-    After the S3 bucket is created, you can upload your static website files to the bucket using the AWS CLI or the AWS Management Console.
+    After the S3 bucket is created, you can upload your static website files to the bucket.
 
-## Configuration
-
-The Terraform configuration file (`main.tf`) includes the necessary resources to create an S3 bucket and configure it for static website hosting. You can customize the configuration by modifying the variables in the `variables.tf` file.
 
 ## Cleanup
 
